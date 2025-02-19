@@ -1,6 +1,16 @@
- # Koala - Documentation
+# Koala - Documentation
 
-# Project functions
+## note to Marek for deployment
+
+there is a clone in the dropbox koala folder (in manual) with a deploy.sh in there to install on the server.
+
+Once edits have been made, run `./build.sh` to resize images correctly and generate the pdf manual
+
+Then to deploy: `./deploy.sh` from the folder enclosing the repo.
+
+---
+
+## Project functions
 
 ### Run the project
 
@@ -19,7 +29,8 @@ bundle exec jekyll build
 ```
 
 ### Mine images from PSD files
-The application parses images from `canvases/mobile.psd` and `canvases/tablet.psd` files. 
+
+The application parses images from `canvases/mobile.psd` and `canvases/tablet.psd` files.
 
 `canvases/mobile.example.psd` and `canvases/tablet.example.psd` files are used as examples. Create your own PSDs based on them. If you get any unexpected results just compare your and example PSDs.
 
@@ -77,10 +88,13 @@ pip install -r requirements.txt
 ## Ruby
 
 1. Select a project's ruby version which is in the `.ruby-version` file.
+
 ```shell
 rvm use
 ```
+
 2. Install dependencies.
+
 ```shell
 bundle install
 ```
@@ -89,7 +103,8 @@ bundle install
 
 If you need to install Ruby and encounter different troubles along the way then you should look at the recommendations below.
 
---- 
+---
+
 ###### [Install](https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rvm-on-ubuntu-20-04) _ruby_ using _rvm_.
 
 ---
@@ -109,7 +124,7 @@ There has been an error while running make. Halting the installation.
 
 ---
 
-Running <u>bundle</u> raises an OpenSSL error. 
+Running <u>bundle</u> raises an OpenSSL error.
 
 ```
 Could not load OpenSSL.
