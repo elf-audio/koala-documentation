@@ -25,7 +25,7 @@ const documents = [
     {% comment %}
         Reassemble the URL into the new format.
     {% endcomment %}
-    {% assign url = parts[1] | prepend: '/' | append: '/' | append: chapter_name | append: '.html#' | append: chapter_number | append: screen_name %}
+    {% assign url = parts[1] | prepend: '/' | append: '/' | append: chapter_name | append: '/#' | append: chapter_number | append: screen_name %}
 {% endif %}
 
 
@@ -60,7 +60,10 @@ function search(term) {
     if(term) {
         document.getElementById('searchresults').innerHTML = "<p>Search results for '" + term + "'</p>" + document.getElementById('searchresults').innerHTML;
         //put results on the screen.
-        var results = idx.search(term + "*");
+        var results = idx.search(term);
+        if(results.length==0) {
+            results = idx.search(term + "*");
+        }
         if(results.length>0){
             //console.log(idx.search(term));
             //if results

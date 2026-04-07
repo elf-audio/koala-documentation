@@ -9,4 +9,4 @@ Note: This feature is not active by default, as it requires 150 MB of additional
 
 SPLIT STEMS is only available in standalone mode.
 
-[Read how](./8-settings.html#84-extras-settings) to activate stem separation in general settings.
+[Read how](../8-settings#84-extras-settings) to activate stem separation in general settings.

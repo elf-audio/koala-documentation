@@ -7,4 +7,4 @@ Resample from app mode lets you capture sounds within Koala. Tap any free pad to
 
 Pro tip: sequences can also be bounced to a pad with the bounce option in the main menu. 
 
-[Read more](./4-sample#bounce-options) about bounce options.
+[Read more](../4-sample#bounce-options) about bounce options.

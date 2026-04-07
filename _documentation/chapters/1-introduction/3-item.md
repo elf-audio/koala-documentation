@@ -9,4 +9,4 @@ Screen of koala in AUM as instrument, effect, instrument into effect.
 
 When used as a multi-bus effect unit, Koala receives audio on the main input of the app. Each pad can be assigned to 8 different output channels for individual processing in your DAW app. Again, this is only available on iOS.
 
-[Read more](./11-AUv3-functionality) about AUv3 functionality.
+[Read more](../11-AUv3-functionality) about AUv3 functionality.

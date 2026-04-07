@@ -3,7 +3,7 @@
 
 {% flexible_image link="sample-editor-eq-enabled.png" alt="Sample editor mix tab" %}
 
-To see the MIX tab, activate “Show EQ” in SETTINGS. [Read more](./8-settings.html#84-extras-settings). 
+To see the MIX tab, activate “Show EQ” in SETTINGS. [Read more](../8-settings#84-extras-settings). 
 
 Tap on the MIX tab to switch to the 3 pole EQ screen for the currently selected pad.
 

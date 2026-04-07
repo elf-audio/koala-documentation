@@ -5,7 +5,7 @@
 
 Image: mute and solo buttons
 
-To see mute/solo buttons, activate them in the SETTINGS. [Read more](./8-settings.html#84-extras-settings).
+To see mute/solo buttons, activate them in the SETTINGS. [Read more](../8-settings#84-extras-settings).
 
 A sequence must be playing back in order to hear mutes and solos.
 

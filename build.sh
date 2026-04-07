@@ -1,5 +1,8 @@
 rm -Rf _site
 bundle exec jekyll build
+
+echo "Checking links"
+node check-links.js --exclude=one-page || exit 1
 ./half-size-images.zsh _site/assets/images
 ./half-size-images.zsh _site/assets/images/tablet/
 rm _site/build.sh
@@ -13,6 +16,7 @@ rm _site/README.md
 rm _site/requirements.txt
 rm _site/screenshot.png
 rm _site/generate-pdf.js
+rm _site/check-links.js
 rm _site/readme_banner.svg
 rm -Rf _site/canvases
 rm -Rf _site/script

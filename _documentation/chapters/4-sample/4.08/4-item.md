@@ -7,4 +7,4 @@ Tap ENABLE button to activate EQ. Great for making A/B comparisons of your chang
 
 Tap RESET to reset back to neutral position.
 
-Tap the BUS button to determine which BUS the pad is sent to. BUS button is part of the MIXER in-app purchase. [Read more](./10-in-app-purchases.html#102-mixer).
+Tap the BUS button to determine which BUS the pad is sent to. BUS button is part of the MIXER in-app purchase. [Read more](../10-in-app-purchases#102-mixer).

@@ -5,4 +5,4 @@
 
 **Background Effect:** After selecting an image to be used as Koala’s background, this option appears in the menu. Select between several effects or set to NONE to remove background effects. 
 
-Note: Animated effects engage when SEQUENCER is running. [Read more](./9-effects.html#93-background-effects) about background effects.
+Note: Animated effects engage when SEQUENCER is running. [Read more](../9-effects#93-background-effects) about background effects.

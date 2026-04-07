@@ -1,3 +1,4 @@
+url: "https://manual.koalasampler.com"
 title: KOALA SAMPLER MANUAL
 author:
   name: Nikolai Sokolov
@@ -18,6 +19,7 @@ description: >
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 
 google_analytics: G-NTKQ1V85B8
@@ -51,4 +53,4 @@ collections:
     output: true
 #    permalink: /:collection/:path/
 
-permalinks: pretty
+permalink: pretty
