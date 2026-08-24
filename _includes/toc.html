@@ -7,8 +7,6 @@
 
 {% assign counter = 0 %}
 
-{{half_count}}
-
 {% assign total_iterations = 0 %}
 
 {% for chapter in chapters %}
@@ -72,14 +70,13 @@
                     <div class="col-md-6">
                 {% endif %}
 
-                {% if counter.last %}
-                    </div>
-                {% endif %}
-
-
             {% endunless %}
 
         {% endfor %}
+
+        {% if counter > 0 %}
+            </div>
+        {% endif %}
     </div>
 </div>
 

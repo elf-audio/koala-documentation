@@ -2,6 +2,8 @@
 layout: chapter
 title: AUv3 Functionality
 order: 11
+description: >-
+  Using Koala as an AUv3 instrument, effect or multi-bus plugin in iOS hosts like AUM, GarageBand and Logic Pro.
 ---
 
 (Please note that this feature is for iOS only - AUv3 is an Apple technology, Google cannot incorporate this into the Android OS and there is no Android equivalent as of writing this on 19/02/2025)

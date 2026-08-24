@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: " en" }}">
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
 {%- include head.html -%}
 <body class="printable">
@@ -87,5 +87,24 @@
 	</div>
 </main>
 	<footer>&copy; {{ site.time | date: '%Y' }} <a href="https://www.elf-audio.com/">elf audio</a></footer>
+<script>
+  // Chapter content links are written relative to /mobile/<chapter>/ pages
+  // (e.g. "../4-sample#410-split-stems"); on this combined page they resolve
+  // to non-existent root URLs. Point them at in-page anchors when the target
+  // exists here, else at the mobile chapter page.
+  document.querySelectorAll('a[href^="../"]').forEach(function (link) {
+    var match = link.getAttribute('href').match(/^\.\.\/([^#]*?)\/?(?:#(.+))?$/);
+    if (!match) return;
+    var chapter = match[1];
+    var anchor = match[2];
+    if (anchor && document.getElementById(anchor)) {
+      link.setAttribute('href', '#' + anchor);
+    } else if (!anchor && document.getElementById(chapter)) {
+      link.setAttribute('href', '#' + chapter);
+    } else {
+      link.setAttribute('href', '/mobile/' + chapter + '/' + (anchor ? '#' + anchor : ''));
+    }
+  });
+</script>
 </body>
 </html>

@@ -6,6 +6,9 @@
     property="og:image"
     content="https://manual.koalasampler.com/assets/og-img.png"
   />
+  {%- if page.noindex -%}
+  <meta name="robots" content="noindex" />
+  {%- endif -%}
   {%- seo -%}
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

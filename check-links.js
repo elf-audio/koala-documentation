@@ -108,6 +108,17 @@ for (const file of htmlFiles) {
     const { targetFile, fragment } = resolveTarget(href, file);
 
     if (!targetFile) {
+      // The one-page layout rewrites "../<chapter>#<anchor>" links to in-page
+      // anchors at runtime (see _layouts/one-page.html); mirror that here.
+      if (relSource.startsWith('one-page/') && href.startsWith('../')) {
+        const ids = getIds(file);
+        const chapter = href.slice(3).split('#')[0].replace(/\/$/, '');
+        if ((fragment && ids.has(fragment)) || (!fragment && ids.has(chapter))) continue;
+        const mobileFallback = path.join(siteDir, 'mobile', chapter, 'index.html');
+        if (fs.existsSync(mobileFallback)) {
+          if (!fragment || getIds(mobileFallback).has(fragment)) continue;
+        }
+      }
       console.log(`BROKEN LINK: ${relSource} -> ${href} (file not found)`);
       broken++;
       continue;

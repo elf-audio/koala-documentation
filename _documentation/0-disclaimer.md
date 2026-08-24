@@ -2,6 +2,8 @@
 layout: chapter
 title: Disclaimer
 order: 0
+description: >-
+  Disclaimer for the Koala Sampler manual: accuracy, platform feature availability, and how to report problems or contribute.
 ---
 
 1. We try to make sure this manual is as up to date and accurate as possible, but sometimes it falls behind as we devote most of our time to working on new features and fixing bugs.

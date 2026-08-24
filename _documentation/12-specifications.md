@@ -2,6 +2,8 @@
 layout: chapter
 title: Specifications
 order: 12
+description: >-
+  Koala Sampler technical specifications: audio resolution, pad and sequence counts, import formats and supported platforms.
 ---
 
 - Vertical and horizontal modes

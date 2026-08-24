@@ -1,4 +1,5 @@
 ---
 layout: search
+sitemap: false
+noindex: true
 ---
-Hello text

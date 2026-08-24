@@ -2,6 +2,8 @@
 layout: chapter
 title: Perform
 order: 6
+description: >-
+  The Perform screen in Koala: 16 live effects, resampling, mixing and recording your finished song.
 ---
 
 Perform screen is where you spice up your performance, resample with the 16 live effects applied and mix and record your song. Play around with effect combinations to find your signature sound. Get creative by resampling over and over with some effects applied.

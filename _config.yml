@@ -17,9 +17,36 @@ description: >
 
 # Build settings
 
+lang: en
+
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+
+# Keep repo tooling / internals out of the published site
+exclude:
+  - build.sh
+  - deploy.sh
+  - check-links.js
+  - generate-pdf.js
+  - half-size-images.zsh
+  - mine-psd.py
+  - requirements.txt
+  - package.json
+  - package-lock.json
+  - node_modules
+  - canvases
+  - script
+  - venv
+  - CLAUDE.md
+  - README.md
+  - History.markdown
+  - CODE_OF_CONDUCT.md
+  - LICENSE.txt
+  - minima.gemspec
+  - readme_banner.svg
+  - Gemfile
+  - Gemfile.lock
 
 
 google_analytics: G-NTKQ1V85B8

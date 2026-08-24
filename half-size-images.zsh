@@ -7,6 +7,13 @@ then
   exit 1
 fi
 
+# Fail loudly rather than silently shipping full-size images
+if ! command -v magick > /dev/null
+then
+  echo "ERROR: ImageMagick ('magick') not found. Install with: brew install imagemagick"
+  exit 1
+fi
+
 # Navigate to the directory
 cd "$1" || exit
 
@@ -16,7 +23,7 @@ do
   if [[ -f "$img" ]]; then
     echo "Resizing $img..."
     # Resize the image to 50% of its original dimensions
-    magick convert "$img" -resize 50% "$img"
+    magick "$img" -resize 50% "$img"
   fi
 done
 
