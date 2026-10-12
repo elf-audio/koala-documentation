@@ -5,8 +5,8 @@
 ### DELAY
 Filterable, syncable delay.
 
-* DELAY: 0.00000 ms to 2.50 sec / 1/64–8 bars
-* STEREO: on/off
+* DELAY: 0 ms to 2.50 sec / 1/64–8 bars, set independently for LEFT and RIGHT
+* STEREO: links left and right delay times on/off
 * TEMPO SYNC: on/off
 * FREQ: 100 Hz to 8.00 kHz
 * WIDTH: 1.0–20

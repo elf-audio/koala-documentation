@@ -15,4 +15,8 @@ UNDO: each tap undos one previous step
 
 REDO: each tap redos one undone step
 
+PASTE: pastes notes copied with COPY at the playhead position.
+
+AUTOMATION: shows the automation lane below the notes. [Read more](#59-automation-samurai)
+
 Pro tip: randomization is a great way to create ever changing sequences. Try this on your drums or melodic notes.

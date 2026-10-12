@@ -1,10 +1,15 @@
 ---
 ---
-
-- **Input source (USB only):** select which channels should be used when a USB audio interface is connected.
-- **Background audio:** audio will continue playing when switching to other apps when on. This is only available on iOS, not Android
-- **Inter-App Audio Sync:** sync through IAA with older apps when on. IAA standard is now deprecated, with a decreasing number of apps supporting it. This is only available on iOS, not Android (IAA is an Apple technology, Google cannot incorporate it into the Android OS)
-- **Pocket Operator sync out:** send PO sync signal thru when on.
+- **Input source:** which channels of your audio input to use: L, L + R or R. With a USB audio interface this selects the interface inputs.
+- **Audio driver** (Windows): choose between the available audio APIs, including ASIO and WASAPI.
+- **Input / Output** (desktop): choose the input and output device.
+- **Sample rate** (Windows): choose the sample rate Koala runs at.
+- **Background audio** (iOS): audio will continue playing when switching to other apps when on. Not available on Android.
+- **Host clock sync** (AUv3 only): Koala's clock follows your DAW or host. Turn it off and Koala runs independently of the host and may sound out of time.
+- **Pocket Operator sync out:** send PO sync signal through the headphone output when on. Turn your device's volume to max and set your Pocket Operator to SY-4.
 - **Metronome volume:** use the slider to change the volume of the metronome sound.
+- **Stereo input** (Android): some phones can only record in stereo even though the microphone is mono. Switch on if your recordings are silent or distorted.
+- **Use OpenSL (older devices)** (Android): switches from the modern AAudio API to OpenSL. Try this if audio is glitchy on an older or cheaper phone. Note that MIDI sync does not work with OpenSL.
 - **I/O:** see the sample rate, number of channels and the buffer size.
-- **Auto trim on record:** the selection in your sample will automatically be at the of audible content when this option is on.
+- **Auto trim on record:** the selection in your sample will automatically start at the beginning of audible content when this option is on.
+- **Auto normalize recordings:** quiet recordings are automatically turned up when this option is on.

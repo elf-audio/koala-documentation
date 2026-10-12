@@ -1,5 +1,5 @@
 ---
-title: 5.6. Keyboard Modes [SAMURAI]
+title: 5.6. Keyboard Modes
 ---
 
-## 5.6. Keyboard Modes [SAMURAI]
+## 5.6. Keyboard Modes

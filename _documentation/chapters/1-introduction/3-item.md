@@ -3,7 +3,7 @@
 
 {% flexible_image link="auv3-instrument.png" alt="Koala in AUM as instrument and as effect" %}
 
-Koala can be used as a standalone app, an on iOS as AUv3 instrument or AUv3 8-channel multi-bus effect unit in apps like AUM, Garageband or Logic Pro. AUv3 functionality is not available on Android.
+Koala can be used as a standalone app on iOS, Android, macOS, Windows and Linux. On iOS it also runs as an AUv3 instrument or AUv3 8-channel multi-bus effect unit in apps like AUM, Garageband or Logic Pro. AUv3 functionality is not available on Android.
 
 Screen of koala in AUM as instrument, effect, instrument into effect.
 
