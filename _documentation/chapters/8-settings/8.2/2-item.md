@@ -5,7 +5,7 @@
 - **Input / Output** (desktop): choose the input and output device.
 - **Sample rate** (Windows): choose the sample rate Koala runs at.
 - **Background audio** (iOS): audio will continue playing when switching to other apps when on. Not available on Android.
-- **Host clock sync** (AUv3 only): Koala's clock follows your DAW or host. Turn it off and Koala runs independently of the host and may sound out of time.
+- **Host clock sync** (plugin mode): Koala's clock follows your DAW or host. Turn it off and Koala runs independently of the host and may sound out of time.
 - **Pocket Operator sync out:** send PO sync signal through the headphone output when on. Turn your device's volume to max and set your Pocket Operator to SY-4.
 - **Metronome volume:** use the slider to change the volume of the metronome sound.
 - **Stereo input** (Android): some phones can only record in stereo even though the microphone is mono. Switch on if your recordings are silent or distorted.

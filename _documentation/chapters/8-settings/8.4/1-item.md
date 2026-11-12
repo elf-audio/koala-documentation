@@ -19,3 +19,5 @@
 * **QWERTY Map:** EDIT the computer keyboard shortcuts, or IMPORT and EXPORT them. [Read more](#85-qwerty-keyboard-shortcuts).
 * **Export Settings:** export all of Koala's settings as a file for backup or to copy them to another device.
 * **Song folder** (desktop): shows where Koala keeps your songs and samples on disk.
+* **Enable key events** *(DAW plugin only)*: lets Koala receive computer keyboard shortcuts while its plugin window is open in your DAW.
+* **Licence** *(desktop / Koala Plugin Bundle)*: purchase, activate or deauthorize your Koala Plugin Bundle licence on this computer. Deauthorizing asks for confirmation so you can free up one of your 3 machine activations.

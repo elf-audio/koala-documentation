@@ -10,4 +10,4 @@ Two neural networks are available. FAST works faster but the quality is less goo
 
 Note: the networks are downloaded the first time you use them (you only need to do this once), and need a few hundred megabytes of space. Splitting is heavy work for a phone and can take a while. Koala warns you if there is not enough free memory for the sample you chose. You can remove the downloaded networks under "Stem splitter files" in the EXTRAS settings. [Read more](../8-settings#84-extras-settings).
 
-Stem splitting is available in the standalone app on iOS, Android, macOS, Windows and Linux.
+Stem splitting is available in the standalone app on iOS, Android, macOS, Windows and Linux, and inside the desktop Koala DAW plugin (AU, VST3 and CLAP). It is not available inside the iOS AUv3 plugin due to iOS memory limits.

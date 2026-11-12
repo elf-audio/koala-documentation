@@ -16,6 +16,4 @@ Use powerful features like looping, stem extraction, time stretching, resampling
 
 Tap and hold any free pad to start recording from mic input. Release to stop recording.
 
-Image: loading Koala as effect and instrument
-
-Pro tip: you can select additional output channels when Koala is loaded as AUv3 effect (not instrument). (again, AUv3 is an iOS only technology not supported by Android OS)
+Pro tip: you can route pads to additional output channels when Koala is loaded as an AUv3 plugin on iOS or as a DAW plugin on desktop (not supported on Android).

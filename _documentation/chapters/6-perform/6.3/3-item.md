@@ -3,7 +3,7 @@
 
 {% flexible_image link="perform-live-fx-simple.png" alt="Live FX simple" %}
 
-Effects without any marks simply increase the amount of effect applied. Every other effect
+Effects without any marks simply increase the amount of effect applied the further you slide.
 
 [Read more](../9-effects) about live effects.
 

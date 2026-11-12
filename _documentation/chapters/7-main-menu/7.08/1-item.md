@@ -12,5 +12,7 @@ Other things you can import:
 * MIDI files (.mid): drop one onto a sequence slot, or open it from the browser, and the notes are written into a sequence. Each MIDI note maps to a pad in order, starting with bank A pad 1.
 * Koala songs (.koala) and sample packs (.kpk): opening them from another app or the Files app imports them into Koala.
 * MIDI maps and QWERTY maps (.json) exported from the EXTRAS settings.
-* On macOS, drag audio files from the Finder or from your DAW straight onto pads, and drag pads out of Koala onto the desktop or into your DAW.
+* On macOS and Windows, drag audio files from Finder/Explorer or your DAW onto pads, including into the Koala DAW plugin. Drag pads out of Koala onto the desktop/Explorer or straight into your DAW.
+
+Audio files with more than two channels are automatically mixed down to stereo on import.
 

@@ -8,6 +8,7 @@
 | 0 | Record on / off |
 | M | Metronome on / off |
 | / | Keyboard mode on / off |
+| ; | MIDI map mode on / off |
 | Shift (hold) | EDIT (multi-select pads) |
 | N (hold) | SOLO |
 | B (hold) | MUTE |

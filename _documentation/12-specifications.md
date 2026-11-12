@@ -16,11 +16,14 @@ description: >-
 - Samples of any length, limited only by your device’s memory
 - Pads can hold samples, the Quokka synth, Chopper instruments, MIDI out or plugin instruments
 - 16 live effects and over 30 mixer effects
-- Plugin hosting: AUv3 on iOS, Audio Unit, CLAP and VST3 on macOS, CLAP and VST3 on Windows
+- System audio capture (SYSTEM input) on iOS 27+, macOS 14.2+, Android 10+ and Windows
+- Per-sample quality control (sample rate & HI-QUALITY / CLASSIC / RETRO interpolation)
+- Plugin hosting (standalone): AUv3 on iOS, Audio Unit, CLAP and VST3 on macOS, CLAP and VST3 on Windows and Linux
+- DAW plugin versions: AUv3 on iOS; Audio Unit and VST3 on macOS, VST3 on Windows, and CLAP and VST3 on Linux (including Koala FX)
 - Import MIDI files, export sequences as MIDI
 - Songs of any size limited only by your device’s storage
 - Import any audio file your device can play back with the default media player
 - Import audio from video files your device can play back with the default media player
-- Runs on iOS, Android, Windows, MAC and Linux platforms
+- Runs on iOS, Android (ARM and x86_64 Chromebooks), macOS (Apple Silicon and Intel), Windows (64-bit) and Linux (x86_64 and arm64 / Raspberry Pi)
 
 PLEASE NOTE: there are some features that aren't available on all platforms. If unsure, consult the app description in the appropriate app store or get in touch at <https://www.koalasampler.com/contact>

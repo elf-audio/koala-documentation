@@ -8,4 +8,12 @@ In mapping mode, tap any control on the screen, then press the key or move the k
 
 **Pickup:** mapped knobs only take effect once they move past the parameter's current value, preventing sudden jumps when a knob and the on-screen control disagree.
 
-MIDI maps are saved with Koala's settings. Use the MIDI Map IMPORT and EXPORT buttons in the EXTRAS settings to move a map to another device.
+**Synth pads and bus effects (saved per song):** Quokka parameters, plugin parameters and mixer bus effects can all be MIDI-mapped. Mappings for synth pads and bus effects are saved with the song. Global pads, transport and UI controls stay in your global MIDI map.
+
+**Quick toggle & undo/redo:** toggle MIDI map mode from a computer keyboard (default key ";") or from a mapped MIDI button. You can undo and redo MIDI mapping changes.
+
+**MIDI Map Editor:** tap the MIDI map editor button in MIDI settings to view, edit or remove individual mappings.
+
+**Relative MIDI encoders:** MIDI learn automatically detects relative CC and NRPN increment/decrement encoders with speed-based acceleration. Mapped sample start/length encoders follow the current waveform zoom.
+
+Global MIDI maps are saved with Koala's settings. Use the MIDI Map IMPORT and EXPORT buttons in the EXTRAS settings to move a map to another device.

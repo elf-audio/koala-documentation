@@ -8,4 +8,6 @@ Tap on the dropdown to select between PITCH, VEL or OFF modes.
 * VEL changes the velocity by sliding up or down. 
 * OFF disables additional controls.
 
-The PITCH SCALE menu sets how far the pitch slide reaches: 1, 2 or 3 OCTAVES.
+{% flexible_image link="sequence-note-repeat-pitch-scale-menu.png" alt="Note repeat pitch scale menu" %}
+
+Tap the cog icon in PITCH mode to open PITCH SCALE, where you can choose the scale and set how far the pitch slide reaches (1, 2 or 3 OCTAVES).

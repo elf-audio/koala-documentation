@@ -5,4 +5,4 @@
 
 When an audio interface is connected to your device, mic input changes to Input and captures audio coming through your USB device.
 
-When using Koala in AUv3 hosting apps like AUM, Input option captures audio routed into Koala. (Pls note, AUv3 functionality is only available on iOS)
+In iOS AUv3 hosts like AUM, INPUT captures audio routed into Koala. On macOS, Windows and Linux, the desktop DAW effect plugin can capture audio from its input or sidechain. [Read more](../13-desktop#134-koala-plugin-bundle).
