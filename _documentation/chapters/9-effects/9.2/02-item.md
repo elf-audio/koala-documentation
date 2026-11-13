@@ -5,5 +5,5 @@
 ### BANDPASS
 Band pass filter.
 
-* FREQ: 50–20.0 Hz
+* FREQ: 50 Hz to 20.0 kHz
 * WIDTH: 0.50–20

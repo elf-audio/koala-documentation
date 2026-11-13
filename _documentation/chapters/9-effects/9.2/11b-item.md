@@ -1,5 +1,8 @@
 ---
 ---
+
+{% flexible_image link="effect-isolator.png" alt="Isolator effect" %}
+
 ### ISOLATOR
 DJ style three band isolator. Pull any band down to silence or push it to full.
 * LO, MID, HI: 0–100% level per band, with CUT at the bottom

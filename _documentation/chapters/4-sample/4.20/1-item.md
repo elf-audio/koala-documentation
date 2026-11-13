@@ -6,4 +6,4 @@ Tap EDIT with the pad selected. OPEN EDITOR shows the plugin's own interface, CO
 
 Set the input source to RESAMPLE FROM APP to record the plugin's output onto a sample pad.
 
-Note: plugin hosting is only available in the standalone app, not when Koala itself runs as an AUv3. Plugins that fail Koala's safety scan are greyed out and cannot be loaded. On macOS, enable "Hide Apple Audio Units" in the EXTRAS settings to hide the system Audio Units from the list.
+Note: hosting third-party plugins inside Koala is only available in the standalone app, not when Koala itself runs as a plugin inside a DAW. Plugins that fail Koala's safety scan are greyed out and cannot be loaded. On macOS, enable "Hide Apple Audio Units" in the EXTRAS settings to hide the system Audio Units from the list.

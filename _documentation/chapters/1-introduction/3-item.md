@@ -3,10 +3,12 @@
 
 {% flexible_image link="auv3-instrument.png" alt="Koala in AUM as instrument and as effect" %}
 
-Koala can be used as a standalone app on iOS, Android, macOS, Windows and Linux. On iOS it also runs as an AUv3 instrument or AUv3 8-channel multi-bus effect unit in apps like AUM, Garageband or Logic Pro. AUv3 functionality is not available on Android.
+Koala runs as a standalone app on iOS, Android, macOS, Windows and Linux. On iOS it also runs inside your DAW as an **AUv3** instrument, effect or 8-bus plugin, in hosts like AUM, GarageBand, Logic Pro or Cubasis.
 
-Screen of koala in AUM as instrument, effect, instrument into effect.
+On desktop, the **Koala Plugin Bundle** includes Koala as an **Audio Unit / VST3** plugin on macOS, **VST3** on Windows, and **CLAP / VST3** on Linux, plus the **Koala FX** plugin. Plugin mode is not available on Android.
 
-When used as a multi-bus effect unit, Koala receives audio on the main input of the app. Each pad can be assigned to 8 different output channels for individual processing in your DAW app. Again, this is only available on iOS.
+In plugin mode, assign pads to 8 output buses for individual processing in your DAW. Koala can also capture audio through its input or sidechain in your DAW.
 
-[Read more](../11-AUv3-functionality) about AUv3 functionality.
+[Read more](../11-AUv3-functionality) about iOS AUv3 functionality.
+
+[Read more](../13-desktop#134-koala-plugin-bundle) about the desktop Koala Plugin Bundle.

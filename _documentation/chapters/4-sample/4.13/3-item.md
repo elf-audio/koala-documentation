@@ -1,5 +1,8 @@
 ---
 ---
+
+{% flexible_image link="sample-browser-more.png" alt="Samples browser More section" %}
+
 ### Toys
 Some sample packs include a free toy: a small playable instrument or effect that opens inside the SAMPLES browser. Toys appear in the MORE section once you own the pack that contains them. Tap a toy to open it and read what it does.
 

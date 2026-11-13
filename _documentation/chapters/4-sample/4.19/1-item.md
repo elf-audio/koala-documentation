@@ -1,5 +1,8 @@
 ---
 ---
+
+{% flexible_image link="sample-midi-out.png" alt="MIDI-OUT pad editor" %}
+
 Open the SAMPLES browser, go to MORE and load MIDI-OUT onto a free pad. In the pad editor choose the DEVICE (a connected MIDI output, or ALL) and the MIDI CHANNEL (1 to 16). The display shows the last message sent, for example NOTE ON C3 (60) CH 1 VEL 110.
 
 Play the pad, use the keyboard modes to play it chromatically, or record it into a sequence like any other pad. Notes in the piano roll are sent with their pitch and velocity.

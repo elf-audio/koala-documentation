@@ -2,7 +2,7 @@
 ---
 {% flexible_image link="sample-editor-tools-menu.png" alt="Tools menu" id="bounce-options"%}
 
-TOOLS: opens a dropdown menu with additional tools. Pro tip: drag up or down on TOOLS to open it without tapping.
+Tap the arrow button in the top-right corner of the sample editor to open the tools menu:
 * LABEL: add a custom label to the pad
 * INFO: show details about the sample. [Read more](#414-sample-info)
 * EDIT: open the wave editor. [Read more](#416-wave-editor)

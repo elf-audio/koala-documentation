@@ -3,7 +3,7 @@
 {% flexible_image link="effect-sidechain.png" alt="Sidechain effect" %}
 
 ### SIDECHAIN
-Sidechain compressor. Controls the volume of CHANEL by the volume of SOURCE
+Sidechain compressor. Controls the volume of CHANNEL by the volume of SOURCE
 
 * SOURCE: MIC, BUS A–D
 * THRESHOLD: -60–0 dB

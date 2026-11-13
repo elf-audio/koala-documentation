@@ -1,5 +1,8 @@
 ---
 ---
+
+{% flexible_image link="effect-clipper.png" alt="Clipper effect" %}
+
 ### CLIPPER
 Hard clipper for adding loudness and edge, or as a brick wall before the LIMITER.
 * IN: -36–36 dB input gain
