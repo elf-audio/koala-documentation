@@ -27,3 +27,26 @@ description: >-
 - Runs on iOS, Android (ARM and x86_64 Chromebooks), macOS (Apple Silicon and Intel), Windows (64-bit) and Linux (x86_64 and arm64 / Raspberry Pi)
 
 PLEASE NOTE: there are some features that aren't available on all platforms. If unsure, consult the app description in the appropriate app store or get in touch at <https://www.koalasampler.com/contact>
+
+## Import formats
+
+Koala decodes WAV, AIFF, MP3 and FLAC itself, so these load everywhere. The other formats are decoded by your device's operating system, which is why the list differs between platforms.
+
+| Format | File extensions | iOS / macOS | Android | Windows | Linux |
+|---|---|---|---|---|---|
+| WAV | .wav | Yes | Yes | Yes | Yes |
+| AIFF | .aif .aiff | Yes | Yes | Yes | Yes |
+| MP3 | .mp3 | Yes | Yes | Yes | Yes |
+| FLAC | .flac | Yes | Yes | Yes | Yes |
+| AAC (MPEG-4) | .m4a .mp4 | Yes | Yes | Yes | No |
+| AAC (ADTS) | .aac | Yes | Yes | Yes | No |
+| 3GP | .3gp | Yes | Yes | Yes | No |
+| Ogg Vorbis, Ogg Opus | .ogg .oga .opus | Yes, on recent iOS and macOS versions | Yes | No | No |
+| AMR | .amr | No | Yes | No | No |
+| WMA | .wma | No | No | Yes | No |
+| CAF | .caf | Yes | No | No | No |
+| Audio from video | .mp4 .m4v .mov | Yes | .mp4 only | .mp4 only | No |
+
+Any sample rate and bit depth can be imported, the audio is converted to the song's sample rate as it loads. Files with more than two channels are mixed down to stereo.
+
+If a file in one of these formats will not load, it may use a codec your device has no decoder for. Converting it to WAV or FLAC first will always work.
