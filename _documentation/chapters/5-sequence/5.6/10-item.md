@@ -1,5 +1,8 @@
 ---
 ---
+
+{% flexible_image link="sequence-arp-menu.png" alt="Arpeggiator settings" %}
+
 ### 5.6.10. Arpeggiator
 Open the scale dropdown while in keyboard mode and tick ARPEGGIATOR. Held notes are now played one at a time in tempo, and an ARP button appears in the sequence controls. Tap ARP to open the settings:
 

@@ -1,5 +1,8 @@
 ---
 ---
+
+{% flexible_image link="effect-chorus.png" alt="Chorus effect" %}
+
 ### CHORUS
 Classic chorus for widening and thickening.
 * RATE: 0.1–10 Hz

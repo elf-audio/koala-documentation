@@ -1,5 +1,8 @@
 ---
 ---
+
+{% flexible_image link="effect-test-tone.png" alt="Test tone effect" %}
+
 ### TEST TONE
 Signal generator for checking your setup or as a sound source for the VOCODER and SIDECHAIN.
 * PITCH: 20 Hz to 20 kHz

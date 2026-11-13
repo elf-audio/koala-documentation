@@ -1,5 +1,8 @@
 ---
 ---
+
+{% flexible_image link="effect-plate-reverb.png" alt="Plate reverb effect" %}
+
 ### PLATE REVERB
 Plate reverb with a bright, dense tail.
 * DRY/WET: 0–100%

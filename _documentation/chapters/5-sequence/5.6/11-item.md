@@ -1,5 +1,8 @@
 ---
 ---
+
+{% flexible_image link="sequence-keygrid-velocity.png" alt="Velocity mode and pitchbend" %}
+
 ### 5.6.11. Velocity Mode and Pitchbend
 PITCHBEND [SAMURAI]: tick PITCHBEND in the KEYBOARD menu to add a BEND strip next to the keyboard. Slide on the strip to bend the pitch of the notes you are holding, like a pitch wheel. Bends are recorded into the sequence and can be edited as automation.
 

@@ -1,5 +1,8 @@
 ---
 ---
+
+{% flexible_image link="effect-vocoder.png" alt="Vocoder effect" %}
+
 ### VOCODER
 Classic vocoder: a VOICE signal shapes the sound of a SYNTH signal, so a pad or synth "talks".
 * SYNTH: the carrier. VOICE SYNTH uses the built-in synth, THIS BUS uses the audio on the channel.

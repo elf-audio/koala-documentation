@@ -1,5 +1,8 @@
 ---
 ---
+
+{% flexible_image link="sample-pad-color.png" alt="Pad colour picker" %}
+
 Open the TOOLS dropdown and tap COLOR to choose a colour for the selected pad. Pick from one of four palettes: KOALA, TOL, WONG or IBM. Multi-select pads with EDIT to colour several at once.
 
 Tap and hold a sequence slot, then tap COLOR to colour a sequence the same way.

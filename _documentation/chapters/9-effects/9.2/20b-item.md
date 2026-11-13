@@ -1,5 +1,8 @@
 ---
 ---
+
+{% flexible_image link="effect-stereoizer.png" alt="Stereoizer effect" %}
+
 ### STEREOIZER
 Turns a mono signal into a wide stereo one while keeping the low end centred.
 * SPREAD: 0–100%
