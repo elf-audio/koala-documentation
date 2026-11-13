@@ -41,7 +41,8 @@ Koala decodes WAV, AIFF, MP3 and FLAC itself, so these load everywhere. The othe
 | AAC (MPEG-4) | .m4a .mp4 | Yes | Yes | Yes | No |
 | AAC (ADTS) | .aac | Yes | Yes | Yes | No |
 | 3GP | .3gp | Yes | Yes | Yes | No |
-| Ogg Vorbis, Ogg Opus | .ogg .oga .opus | Yes, on recent iOS and macOS versions | Yes | No | No |
+| Ogg Vorbis | .ogg | Yes, on recent iOS and macOS versions | Yes | Yes | Yes |
+| Ogg Opus | .opus .oga | Yes, on recent iOS and macOS versions | Yes | No | No |
 | AMR | .amr | No | Yes | No | No |
 | WMA | .wma | No | No | Yes | No |
 | CAF | .caf | Yes | No | No | No |
