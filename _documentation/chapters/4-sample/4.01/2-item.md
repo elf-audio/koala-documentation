@@ -13,3 +13,5 @@ Use one of the 8 built-in input effects to mangle input sound during the recordi
 * **8ve Up:** pitches audio 1 octave up
 * **8ve Down:** pitches audio 1 octave down
 * **Bass Synth:** adds low end harmonics
+
+{% youtube id="l4W5exK_5Qc" title="Koala Sampler Mic FX Tutorial" %}

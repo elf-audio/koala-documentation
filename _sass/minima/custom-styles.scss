@@ -407,4 +407,32 @@ input[type="text"] {
     margin: 0.5em;
 }
 
-    
+.video-embed {
+    margin: 18px 0 26px;
+    max-width: 640px;
+}
+
+.video-embed-frame {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #000;
+    border: 1px solid #ffffff22;
+}
+
+.video-embed-frame iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.video-embed-caption {
+    margin: 8px 0 0;
+    font-size: 0.9em;
+}

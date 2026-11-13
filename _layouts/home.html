@@ -3,7 +3,7 @@ layout: base
 ---
 
 <div class="home">
-    <center><h1 style="margin: 0; line-height: 0;"><img src="/assets/images/justkoala.svg" alt="Koala Sampler Manual" style="height: 12em;margin-bottom: 1em" /></h1></center>
+    <center><h1 style="margin: 0; line-height: 0;"><img src="{{ '/assets/images/justkoala.svg' | relative_url }}" alt="Koala Sampler Manual" style="height: 12em;margin-bottom: 1em" /></h1></center>
   <!-- <h3>Welcome to the Koala Sampler Manual!</h3> -->
   <p>
     Congrats on your new Koala Sampler! This manual will help you 
@@ -11,7 +11,7 @@ layout: base
     a work in progress so if you have any feedback, please get in 
     touch <a href="https://www.koalasampler.com/contact/">here</a>.
     If you'd like to contribute, you can do so via <a href="https://github.com/elf-audio/koala-documentation">GitHub</a>.
-    You can also download a one page PDF version of this manual <a href="koala-sampler-manual.pdf">here</a>.
+    You can also download a one page PDF version of this manual <a href="{{ '/koala-sampler-manual.pdf' | relative_url }}">here</a>.
 </p>
 <hr /> 
  {%- include toc.html -%}

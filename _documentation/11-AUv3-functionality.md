@@ -19,3 +19,5 @@ Koala can be loaded in three different modes:
 - as a multi-bus AUv3 plugin.
 
 Note: Stem Split and hosting third-party plugins inside Koala are not available in iOS AUv3 mode (Stem Split is supported in the desktop DAW plugins).
+
+{% youtube id="ePhyI6R2Vtk" title="Koala as an AUv3 Plugin" %}

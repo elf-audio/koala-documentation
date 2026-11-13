@@ -9,3 +9,5 @@ PITCHBEND [SAMURAI]: tick PITCHBEND in the KEYBOARD menu to add a BEND strip nex
 VELOCITY turns the whole pad area into one big velocity-sensitive pad. Press near the top for loud hits and near the bottom for quiet ones, which is particularly useful for percussive sounds.
 
 The padlock button locks the visible range of the keyboard or grid so you cannot scroll it by accident.
+
+Watch the [Pitch Bend and Perform FX Automation tutorial](https://youtu.be/OSzBvW98WiA).

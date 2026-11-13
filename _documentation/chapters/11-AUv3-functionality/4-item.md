@@ -7,3 +7,5 @@ title: 11.4. AUv3 Tips
 * **MIDI:** MIDI notes from the host are honoured even when Koala's window is closed. "Pads send MIDI notes" in the MIDI settings sends a note out for every pad you play so the host can record it.
 * **Files:** the SAMPLES browser can reach your custom locations and iCloud Drive from inside the AUv3.
 * **Not available in iOS AUv3:** Stem Split and hosting third-party plugins inside Koala. Use the standalone app for plugin hosting. Stem Split is also supported in the desktop DAW plugins.
+
+{% youtube id="Kzv88yZzRYE" title="Using AUv3 Plugins with Koala in GarageBand (Without AUM)" %}

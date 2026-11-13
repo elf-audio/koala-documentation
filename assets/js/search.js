@@ -71,7 +71,7 @@ const documents = [
   {
     "id": {{ counter }},
     "title": {{ entry_title | jsonify }},
-    "url": {{ entry_url | jsonify }},
+    "url": {{ entry_url | relative_url | jsonify }},
     "content": {{ doc.content | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip_html | jsonify }}
   }
 {%- assign counter = counter | plus: 1 -%}

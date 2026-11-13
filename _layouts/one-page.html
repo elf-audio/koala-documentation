@@ -102,7 +102,7 @@
     } else if (!anchor && document.getElementById(chapter)) {
       link.setAttribute('href', '#' + chapter);
     } else {
-      link.setAttribute('href', '/mobile/' + chapter + '/' + (anchor ? '#' + anchor : ''));
+      link.setAttribute('href', '{{ "/mobile/" | relative_url }}' + chapter + '/' + (anchor ? '#' + anchor : ''));
     }
   });
 </script>

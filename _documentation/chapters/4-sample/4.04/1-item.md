@@ -8,3 +8,5 @@ Tap the MENU button, then choose IMPORT VIDEO. A window with videos on your devi
 Warning: converting videos may take a while depending on your device.
 
 Pro tip: use the iOS screen record feature to record videos during their playback in the web browser.
+
+{% youtube id="UUxnSqDMCns" title="How to Record from YouTube with Koala Sampler on iOS" %}
