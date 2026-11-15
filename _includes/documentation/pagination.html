@@ -45,14 +45,14 @@
         &laquo; Previous
       </u>
       <div class="smaller">
-        {{prev_chapter_order}}. {{ prev_chapter_title }}
+        {{prev_chapter_order}}. {{ prev_chapter_title }}{% if prev.title_zh %}<br><span lang="zh-CN">{{ prev.title_zh | escape }}</span>{% endif %}
       </div>
     </a>
     {% endif %}
   </div>
   <div>
     <a href="{{ page.collection | relative_url }}#documentation-items">
-        Contents
+        Contents<br><span lang="zh-CN">目录</span>
     </a>
   </div>
   <div style="text-align: right;">
@@ -62,7 +62,7 @@
         Next &raquo;
       </u>
       <div class="smaller">
-        {{next_chapter_order}}. {{ next_chapter_title }}
+        {{next_chapter_order}}. {{ next_chapter_title }}{% if next.title_zh %}<br><span lang="zh-CN">{{ next.title_zh | escape }}</span>{% endif %}
       </div>
     </a>
     {% endif %}
