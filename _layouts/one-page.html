@@ -9,12 +9,12 @@
 	<div class="container">
 
 		<div class="front-page">
-			<h1>KOALA SAMPLER MANUAL</h1>
+			<h1>KOALA SAMPLER MANUAL<br><span lang="zh-CN">Koala Sampler 使用手册</span></h1>
 			<div class="updateDate">Last updated: {{ site.time | date: '%A, %B %d, %Y' }}</div>
 		</div>
 
 		<div class="toc">
-			<h2>Contents</h2>
+			<h2>Contents<br><span lang="zh-CN">目录</span></h2>
 			<!-- loop through root chapters -->
 
 			{% assign docs = site.documentation | sort: 'order' %}
@@ -28,7 +28,7 @@
 
 					<div class="documentation-item">
 						<a href="#{{ chapter_path_component }}">
-							{{chapter.order}}. {{ chapter.title }}
+							{{chapter.order}}. {{ chapter.title }}{% if chapter.title_zh %}<br><span lang="zh-CN">{{ chapter.title_zh | escape }}</span>{% endif %}
 						</a>
 
 						
@@ -40,7 +40,7 @@
 								{% if subchapter.url contains 'chapters' and subchapter.url contains chapter_path_component  %}
 									<li>
 										<a href="#{{subchapter.url}}">
-											{{subchapter.title}}
+											{{subchapter.title}}{% if subchapter.title_zh %}<br><span lang="zh-CN">{{ subchapter.title_zh | escape }}</span>{% endif %}
 										</a>
 									</li>
 								{% endif %}
@@ -54,6 +54,7 @@
 		</div>
 
 <!-- loop through root chapters -->
+{% capture manual_body %}
 {% for chapter in docs %}
 	{% unless chapter.hidden == true or chapter.url contains 'chapters' %}
 
@@ -63,7 +64,7 @@
 
 		<div class="chapter">
 			<h2 id="{{ chapter_path_component }}">
-				{{chapter.order}}. {{ chapter.title }}
+				{{chapter.order}}. {{ chapter.title }}{% if chapter.title_zh %}<br><span lang="zh-CN">{{ chapter.title_zh | escape }}</span>{% endif %}
 			</h2>
 			{{ chapter.content }}
 			
@@ -82,6 +83,18 @@
 		</div>
 	{% endunless %}
 {% endfor %}
+{% endcapture %}
+{% for chapter in docs %}
+  {% unless chapter.url contains 'chapters' %}
+    {% assign slug = chapter.url | split: '/' | slice: 2, 1 | first | split: '.' | first %}
+    {% capture fragment_link %}href="../{{ slug }}#{% endcapture %}
+    {% capture page_link %}href="../{{ slug }}"{% endcapture %}
+    {% capture local_link %}href="#{{ slug }}"{% endcapture %}
+    {% assign manual_body = manual_body | replace: fragment_link, 'href="#' | replace: page_link, local_link %}
+  {% endunless %}
+{% endfor %}
+{{ manual_body }}
+
 
 
 	</div>

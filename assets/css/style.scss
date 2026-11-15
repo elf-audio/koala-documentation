@@ -6,3 +6,20 @@
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
 
+.documentation-content [lang="zh-CN"],
+.documentation-item [lang="zh-CN"],
+.printable .chapter [lang="zh-CN"],
+.documentation-single-article [lang="zh-CN"],
+.documentation-single-article-header [lang="zh-CN"],
+main h1 [lang="zh-CN"],
+main h2 [lang="zh-CN"],
+main h3 [lang="zh-CN"],
+main td [lang="zh-CN"],
+main th [lang="zh-CN"] {
+  background-color: #fff0f5;
+  color: #262126;
+  border-radius: 0.2em;
+  padding: 0.1em 0.25em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}

@@ -32,7 +32,7 @@
 
                 <div class="documentation-item" data-page-url="{{ chapter.url | relative_url }}">
                     <a class="root-section" href="{{ chapter.url | relative_url }}">
-                        {{chapter.order}}. {{ chapter.title }}
+                        {{chapter.order}}. {{ chapter.title }}{% if chapter.title_zh %}<br><span lang="zh-CN">{{ chapter.title_zh | escape }}</span>{% endif %}
                     </a>
 
                     {% assign chapter_path_component = chapter.url | split: '/' | slice: 2, 1 | first | split: '.'| first %}
@@ -52,7 +52,7 @@
                             {% assign subchapter_url_name = subchapter_url_parts[1] %}
                                 <li>
                                     <a href="{{chapter.url | append: '#' | append: subchapter_url_name | relative_url}}">
-                                        {{subchapter.title}} 
+                                        {{subchapter.title}}{% if subchapter.title_zh %}<br><span lang="zh-CN">{{ subchapter.title_zh | escape }}</span>{% endif %} 
                                     </a>
                                 </li>
                             
