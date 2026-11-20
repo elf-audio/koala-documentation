@@ -23,3 +23,5 @@ Try the bundle free for 7 days. A single one-off Paddle licence covers up to 3 c
 * **Window sizing**: each plugin instance remembers its own editor window size.
 
 Note: Koala does not host third-party plugins while running as a plugin itself. Load third-party synths and effects directly in your DAW instead.
+
+{% youtube id="3Igdg43HkDI" title="Koala FX Plugin Tutorial" %}
